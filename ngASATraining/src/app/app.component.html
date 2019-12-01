@@ -5,10 +5,10 @@
         <img src="./assets/logo.png" style="height:50px;width: 50px" />
       </button>
       <span class="fill-remaining-space"></span>
-      <button mat-button>
+      <button mat-button routerLink="/home" routerLinkActive="active-link">
         HOME
       </button>
-      <button mat-button [routerLink]="./branches" routerLinkActive="active-link">
+      <button mat-button routerLink="/branches" routerLinkActive="active-link">
         OFFICE BRANCES
       </button>
       <button mat-button>
@@ -18,5 +18,5 @@
   </mat-toolbar>
 </div>
 <div class="center-content">
-  {{captions}}
+  <router-outlet></router-outlet>
 </div>
