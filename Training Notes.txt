@@ -1,0 +1,13 @@
+Start with ng new
+ng add @angular/material
+dont forget to check CSS
+    build the header first
+    after the header, check elevation
+    provide icon
+    check the css
+provide the content of the text in the center
+    adjust the header to be fixed
+introduce that we will do the branches first
+    the branches data will be taken from the following JSON file
+    time to split the components accordingly
+    introduce router outlet
